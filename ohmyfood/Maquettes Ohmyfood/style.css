@@ -1,0 +1,356 @@
+/* Header */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 20px 20px 2px #d2d2d2
+    height: 100px;
+    width: 100%;
+    
+}
+.logo{
+
+    height: 30px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #afafaf46;
+    width: 100%;
+    height: 80px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.icon{
+    margin-right: 10px;
+}
+.explo{
+
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px; 
+    background: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80") center/cover
+}
+   
+
+.explo::after{
+    z-index: 20;
+    content: "";
+    filter: grayscale(100%);    
+    background-color: rgba(68, 52, 86, 0.722);
+}
+.btn-1{
+    height: 50px;
+    width: 235px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: whitesmoke;
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    transition: 0.2s;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border: none;
+    cursor: pointer;
+}
+/* Main */
+
+.fonction{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.fonc{
+    margin-left: 30px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box12{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 20px 20px 2px #d2d2d2;
+    cursor: pointer;
+}
+.box3{
+    background-color:#8956dc27;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 20px 20px 2px #d2d2d2;
+    cursor: pointer;
+}
+.circle{
+
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color:#9356dc;
+    border-radius: 50px 50px;
+    margin-left: -15px;
+}
+.num{
+
+   margin-top: 5px;
+}
+.icon12{
+    margin: 20px 20px;
+    color: gray;
+}
+.icon3{
+    margin: 20px 20px;
+    color:#9356dc;
+}
+/* Menu */
+a{
+    text-decoration: none;   
+}
+.menu{
+   
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    font-size: 1.5rem;
+    background-color: #d2d2d231;
+    padding: 20px;
+
+}
+.allMenu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100%;
+ 
+}
+.menu1, .menu2, .menu3, .menu4{
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    width: 450px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background-color: rgba(248, 248, 248, 0.514);
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    cursor: pointer;
+
+}
+.logoRestau{
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+ 
+
+}
+.def{
+    margin-left: 20px;
+    align-items: center;
+
+}
+.plat{
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 50%;
+
+}
+.description{
+    margin-top: 5px;
+    width: 50%;
+
+}
+.iconCoeur{
+    font-size: 1.5rem;
+    position:relative;
+    bottom: 50px;
+    left: 375px;
+   
+}
+.iconCoeur:hover{
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    transition: 0.3s; 
+    -webkit-background-clip:content-box;
+    -webkit-text-fill-color: transparent;
+    
+}
+/* Footer */
+
+footer{
+    background-color: rgb(36, 34, 34);
+    color: whitesmoke;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.logoFooter{
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: "Shrikhand", cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+ul{
+    cursor: pointer;
+    width: 200px;
+}
+/* Page 1 Menu1 */
+.header2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 20px 20px 2px #d2d2d2;
+    width: 100%;
+    height: 60px;
+    
+}
+.arrow{
+    display: flex;
+    font-size: 1.5rem;
+    position:relative;
+    right: 800px;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    height: 440px;
+    width: 100%;
+}
+
+/* Main */
+.main2{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 700px;
+   
+}
+.titreMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Shrikhand", cursive;
+    height: 125px;
+    margin-bottom: 0px;
+}
+.iconCoeur2{
+    margin-left: 10px;
+}
+.allMenuPage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px;
+    margin-top: 0;
+    height: 600px;
+    width: 95%;
+
+}
+.entrees, .plats, .desserts{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 90%;
+    font-size: 1.3rem;
+}
+.entreesPage2{
+    display: flex;
+    flex-direction: column;
+    height: 125%;
+    justify-content: space-around;
+    width: 90%;
+    font-size: 1.3rem;
+
+}
+.choix1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 1rem;
+    background-color: white;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.nomPlat{
+    margin-bottom: 0;
+}
+.descrip{
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+}
+.Price{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.menuCategory::after{
+    content: "";
+    width: 4rem;
+    height: 0.3rem;
+    background-color: #99e2d0;
+    position: absolute;
+    bottom: 230px;
+    left: 50px;
+}
+.btn-2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    height: 80px;
+    width: 235px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: whitesmoke;
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    transition: 0.2s;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border: none;
+    cursor: pointer;
+}    
+
+/* Page 2 Menu 2 */
+
